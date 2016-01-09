@@ -1,4 +1,4 @@
-import 2-collatz-program
+import collatz-program
 
 def test_answer():
-    assert 2-collatz-program.collatz(2) == 1
+    assert collatz-program.collatz(2) == 1
