@@ -1,5 +1,4 @@
-def func(x):
-    return x+2
-    
+import 2-collatz-program
+
 def test_answer():
-    assert func(3) == 4
+    assert collatz(2) == 1
