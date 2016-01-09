@@ -4,4 +4,6 @@ python:
   - "3.3"
   - "3.4"
   - "3.5"
-script: python ch3/2-test.py
+install:
+  - pip install pytest
+script: py.test
